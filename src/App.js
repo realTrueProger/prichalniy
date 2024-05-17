@@ -23,7 +23,7 @@ function App() {
                           <nav>
                               <ul>
                                   <li><Link to="/">Главная</Link></li>
-                                  <li><Link to="/initiatives">Инициативы</Link></li>
+                                  <li><Link to="/initiatives">Регламенты</Link></li>
                                   <li><Link to="/oss">ОСС</Link></li>
                               </ul>
                           </nav>

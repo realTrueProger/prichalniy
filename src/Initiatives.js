@@ -5,8 +5,8 @@ function Initiatives() {
     return (
         <Grid container>
             <Grid item>
-                <h1>Наши предложения</h1>
-                <p> Список предложение пуст</p>
+                <h1>Ссылка на регламенты</h1>
+                <a href={"https://drive.google.com/drive/folders/1gga8KH2QIBom1z9vowjZYSdLSBW5EuQF?usp=sharing"}>Регламенты</a>
             </Grid>
         </Grid>
     );
