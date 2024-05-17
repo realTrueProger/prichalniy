@@ -1,6 +1,9 @@
 .App-header {
   padding: 20px;
   border-bottom: 1px solid gray;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
 }
 
 .logo {
@@ -28,10 +31,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-main {
-  padding: 20px;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -40,4 +39,15 @@ img {
 
 h1 {
   margin: 0;
+}
+
+main {
+  padding: 138px 20px 20px;
+}
+
+
+@media (max-width: 658px) {
+  main {
+    padding: 188px 20px 20px;
+  }
 }
