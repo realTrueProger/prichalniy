@@ -3,8 +3,8 @@ import {Grid} from "@mui/material";
 
 function Home() {
     return (
-        <Grid container spacing={4}>
-            <Grid md={8} item>
+        <Grid container spacing={2}>
+            <Grid md={6} item>
                 <h1>Инициативная группа Level Причальный</h1>
                 <p>Мы – жители Level Причальный. Мы объединились, чтобы сделать жизнь в нашем комплексе более безопасной и
                     комфортной, а работу управляющей компании – честной и прозрачной. </p>
@@ -33,7 +33,7 @@ function Home() {
                 <p><strong>С уважением, ваши соседи.</strong></p>
             </Grid>
 
-            <Grid md={4} item className="image">
+            <Grid md={6} item>
                 <img src="https://images.cdn-cian.ru/images/level-prichalnyy-moskva-jk-2111509002-7.jpg" alt="Company"/>
             </Grid>
         </Grid>
