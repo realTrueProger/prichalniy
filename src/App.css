@@ -1,14 +1,10 @@
-/*.App {*/
-/*  font-family: Arial, sans-serif;*/
-/*}*/
+.App {
+  max-width: 1440px;
+  margin: auto;
+}
 
 .App-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
-  /*background-color: #282c34;*/
-  /*color: white;*/
 }
 
 .logo {
@@ -40,18 +36,9 @@ main {
   padding: 20px;
 }
 
-.content {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.text {
-  flex: 1;
-}
-
 .image {
-  flex: 1;
+  max-width: 100%;
+  height: auto;
 }
 
 .image img {

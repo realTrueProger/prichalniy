@@ -1,9 +1,10 @@
 import React from 'react';
+import {Grid} from "@mui/material";
 
 function Oss() {
     return (
-        <div className="content">
-            <div className="text">
+        <Grid container>
+            <Grid item>
                 <h1>Голосование ОСС</h1>
                 <h2>ВНИМАНИЕ! ВАЖНАЯ ИНФОРМАЦИЯ ДЛЯ ВСЕХ ЖИЛЬЦОВ НАШЕГО ДОМА</h2>
                 <p>Управляющая компания проводит первичное голосование на ОСС, но на этот раз мы должны быть более
@@ -26,8 +27,8 @@ function Oss() {
                     здесь</a></p>
                 <p>Давайте действовать вместе ради наших интересов!</p>
                 <p><strong>С уважением, ваши соседи.</strong></p>
-            </div>
-        </div>
+            </Grid>
+        </Grid>
     );
 }
 

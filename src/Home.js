@@ -1,14 +1,14 @@
 import React from 'react';
+import {Grid} from "@mui/material";
 
 function Home() {
     return (
-        <div className="content">
-            <div className="text">
+        <Grid container spacing={2}>
+            <Grid item>
                 <h1>Инициативная группа Level Причальный</h1>
                 <p>Мы – жители Level Причальный. Мы объединились, чтобы сделать жизнь в нашем комплексе более безопасной и
                     комфортной, а работу управляющей компании – честной и прозрачной. </p>
 
-                <br/>
                 <br/>
                 <h2>ВНИМАНИЕ! ВАЖНАЯ ИНФОРМАЦИЯ ДЛЯ ВСЕХ ЖИЛЬЦОВ НАШЕГО ДОМА</h2>
                 <p>Управляющая компания проводит первичное голосование на ОСС, но на этот раз мы должны быть более
@@ -31,13 +31,12 @@ function Home() {
                     здесь</a></p>
                 <p>Давайте действовать вместе ради наших интересов!</p>
                 <p><strong>С уважением, ваши соседи.</strong></p>
-            </div>
-            <div className="image">
-                <img width={1000} src="https://images.cdn-cian.ru/images/level-prichalnyy-moskva-jk-2111509002-7.jpg" alt="Company"/>
-            </div>
+            </Grid>
 
-
-        </div>
+            <Grid item className="image">
+                <img src="https://images.cdn-cian.ru/images/level-prichalnyy-moskva-jk-2111509002-7.jpg" alt="Company"/>
+            </Grid>
+        </Grid>
     );
 }
 
