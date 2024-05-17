@@ -3,7 +3,11 @@ import {Grid} from "@mui/material";
 
 function Home() {
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} direction={"column"}>
+            <Grid md={6} item>
+                <img src="https://www.frommillion.ru/uploads/building/photo/data/2022/4/625f1de410971e4397f159b5/full_15.jpg" alt="Company"/>
+            </Grid>
+
             <Grid md={6} item>
                 <h1>Инициативная группа Level Причальный</h1>
                 <p>Мы – жители Level Причальный. Мы объединились, чтобы сделать жизнь в нашем комплексе более безопасной и
@@ -31,10 +35,6 @@ function Home() {
                     здесь</a></p>
                 <p>Давайте действовать вместе ради наших интересов!</p>
                 <p><strong>С уважением, ваши соседи.</strong></p>
-            </Grid>
-
-            <Grid md={6} item>
-                <img src="https://images.cdn-cian.ru/images/level-prichalnyy-moskva-jk-2111509002-7.jpg" alt="Company"/>
             </Grid>
         </Grid>
     );

@@ -22,7 +22,9 @@ function App() {
                         <nav>
                             <ul>
                                 <li><Link to="/">Главная</Link></li>
+                                <li>|</li>
                                 <li><Link to="/initiatives">Регламенты</Link></li>
+                                <li>|</li>
                                 <li><Link to="/oss">ОСС</Link></li>
                             </ul>
                         </nav>
