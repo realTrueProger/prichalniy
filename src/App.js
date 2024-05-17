@@ -4,9 +4,11 @@ import Home from "./Home";
 import Initiatives from "./Initiatives";
 import Oss from "./Oss";
 
+const baseName = process.env.NODE_ENV === 'production' ? "/prichalniy/" : "/";
+
 function App() {
   return (
-      <Router>
+      <Router basename={baseName}>
           <div className="App">
               <header className="App-header">
                   <div className="logo">
