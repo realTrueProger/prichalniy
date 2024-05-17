@@ -4,6 +4,7 @@
   position: fixed;
   z-index: 100;
   background-color: white;
+  max-width: 1200px;
 }
 
 .logo {
