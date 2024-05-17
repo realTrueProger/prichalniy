@@ -50,4 +50,8 @@ main {
   main {
     padding: 188px 20px 20px;
   }
+
+  .MuiContainer-root {
+    padding-left: 0 !important;
+  }
 }
