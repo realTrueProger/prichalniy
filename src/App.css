@@ -54,4 +54,8 @@ main {
   .MuiContainer-root {
     padding-left: 0 !important;
   }
+
+  nav ul {
+    gap: 6px;
+  }
 }
